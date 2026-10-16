@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-09-17" view-index="0" gantt-divider-location="780" resource-divider-location="300" version="2.8.9" locale="es">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="342" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="217" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="217" order="2"/>
+        <option id="color.recent"><![CDATA[#0000ff #006633 #ff66cc #ff9900 #993300 #99ffff #33ffff #33ff99 #ffff33 #f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="10" name="I. Planeación" color="#000000" meeting="false" start="2026-09-19" duration="3" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true">
+            <task id="32" name="1.1 Introducción- problemática" color="#33cc00" meeting="false" start="2026-09-19" duration="1" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="1.2 Objetivo SMART" color="#33cc00" meeting="false" start="2026-09-21" duration="1" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="1.3 Alcance Modulos" color="#33cc00" meeting="false" start="2026-09-22" duration="1" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="II. Análisis" color="#000000" meeting="false" start="2026-09-23" duration="2" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true">
+            <task id="36" name="2.1 Análisis de requerimientos" color="#ffff33" meeting="false" start="2026-09-23" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="2.2 Diagramas UML Lenguaje de Modelado" color="#ffff33" meeting="false" start="2026-09-24" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="2" name="III. Diseño" meeting="false" start="2026-09-25" duration="2" complete="0" expand="true">
+            <task id="38" name="3.1 Wireframes" color="#33ff99" meeting="false" start="2026-09-25" duration="1" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true"/>
+            <task id="39" name="3.2 Diseño de base de datos" color="#99ffff" meeting="false" start="2026-09-25" duration="1" complete="0" thirdDate="2026-09-22" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="3.3 Diseño de interfaces gráficas" color="#33ff99" meeting="false" start="2026-09-26" duration="1" complete="0" thirdDate="2026-09-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="3" name="IV. Desarrollo" meeting="false" start="2026-09-28" duration="2" complete="0" expand="true">
+            <task id="41" name="4.1 Programación de módulos" color="#993300" meeting="false" start="2026-09-28" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="4.2 Prototipo inicial" color="#993300" meeting="false" start="2026-09-29" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="4" name="V. Pruebas" meeting="false" start="2026-09-30" duration="1" complete="0" expand="true">
+            <task id="43" name="5.1 Pruebas unitarias" color="#ff9900" meeting="false" start="2026-09-30" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="5.2 Pruebas sistema UTA Aceptación" color="#ff9900" meeting="false" start="2026-09-30" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="5" name="VI. Implementación" meeting="false" start="2026-10-01" duration="1" complete="0" expand="true">
+            <task id="45" name="6.1 Ambiente de producción" color="#8cb6ce" meeting="false" start="2026-10-01" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="VII. Documentación" meeting="false" start="2026-10-02" duration="1" complete="0" expand="true">
+            <task id="21" name="7.1 Manual de Usuario" color="#ff66cc" meeting="false" start="2026-10-02" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="7.2 Manual de instalación-configuracion" color="#ff66cc" meeting="false" start="2026-10-02" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="7" name="VIII. Mantenimiento" meeting="false" start="2026-10-03" duration="1" complete="0" expand="true">
+            <task id="26" name="8.1 Mantenimiento Preventivo" color="#0000ff" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="8.2 Mantenimiento Correctivo" color="#0000ff" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="186" name="8.3 Mantenimiento Adaptativo" color="#0000ff" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-09-17" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="8.4 Mantenimiento Perfectivo" color="#0000ff" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="IX. Retroalimentación" meeting="false" start="2026-10-05" duration="1" complete="0" expand="true">
+            <task id="17" name="9.1 Mejora Continua" color="#006633" meeting="false" start="2026-10-05" duration="1" complete="0" thirdDate="2026-10-03" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
